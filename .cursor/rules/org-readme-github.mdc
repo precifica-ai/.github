@@ -1,0 +1,56 @@
+---
+description: Padrões para README de exibição da organização no GitHub (sem dados sensíveis)
+globs: README.md, **/.github/**
+alwaysApply: false
+---
+
+# README de Exibição da Organização no GitHub
+
+Ao criar ou editar o README de perfil da organização no GitHub, seguir estes critérios.
+
+## O que incluir
+
+- **Título e descrição** da organização (nome, tagline, propósito).
+- **Links públicos**: site, redes sociais, documentação, repositórios destacados.
+- **Badges** opcionais (status, licenças) apenas de fontes públicas.
+- **Texto e imagens** adequados para visibilidade pública.
+- **Estrutura em Markdown** compatível com a renderização do GitHub.
+
+## Dados sensíveis — NUNCA incluir
+
+- Chaves de API, tokens, senhas ou secrets.
+- E-mails pessoais ou internos, números de telefone.
+- URLs de ambientes internos (staging, dev, painéis privados).
+- Nomes de clientes, dados de usuários ou informações comerciais confidenciais.
+- Endereços físicos ou dados que permitam identificação sensível.
+- Referências a repositórios privados por nome ou link, se não forem acessíveis publicamente.
+
+## Verificação antes de commitar
+
+- [ ] Nenhum secret, token ou credencial no texto ou em comentários.
+- [ ] Links apontam apenas para recursos públicos.
+- [ ] Imagens e assets não expõem informações internas.
+- [ ] Revisão rápida de busca por termos como "key", "token", "password", "secret", "internal".
+
+## Exemplo de conteúdo seguro
+
+```markdown
+# Nome da Organização
+
+Breve descrição pública do que a organização faz.
+
+## Links
+
+- [Site](https://exemplo-publico.com)
+- [Documentação](https://docs.exemplo-publico.com)
+- [GitHub](https://github.com/org-name)
+```
+
+## Exemplo do que evitar
+
+```markdown
+<!-- ❌ EVITAR -->
+Contato: admin@interno.com
+API Key: sk-xxxx
+Dashboard: https://staging.interno.com
+```
