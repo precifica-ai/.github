@@ -10,4 +10,4 @@ A **Precifica Ai** é focada em restaurantes. O sistema ajuda a gerenciar gastos
 
 ---
 
-<p align="center">@ProfitAI 2026</p>
+<p align="center">@Precifica AI 2026</p>
