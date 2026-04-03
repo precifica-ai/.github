@@ -2,7 +2,6 @@
   <img src="../assets/logo/logo.jpeg" width="200" style="border-radius: 8px;" alt="Precifica AI" />
 </p>
 
-<p align="center"><strong>Precifica AI</strong></p>
 
 ---
 
